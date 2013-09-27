@@ -1,3 +1,6 @@
 <%= @movies %>
-<li><%= @movie.title %></li>
+<h1><%= @movie.title %></h1>
 <li><%= @movie.description %></li>
+<img src = "<%= @movie.gif %>" height=250>
+
+<iframe width="560" height="315" src="<%= @movie.trailer%>" frameborder="0" allowfullscreen></iframe>
